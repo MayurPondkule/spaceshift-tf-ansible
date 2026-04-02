@@ -1,8 +1,3 @@
-variable "subscription_id" {
-  description = "Azure subscription ID used by the azurerm provider."
-  type        = string
-}
-
 variable "location" {
   description = "Azure region for all resources."
   type        = string
